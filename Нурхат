@@ -1,0 +1,17 @@
+q = int(input('Күнді енгізіңіз: '))
+if q == 1:
+    print('Дүйсенбі')
+elif q == 2:
+    print('Сейсенбі')
+elif q == 3:
+    print('Сәрсенбі')
+elif q == 4:
+    print('Бейсенбі')
+elif q == 5:
+    print('Жұма')
+elif q == 6:
+    print('Сенбі')
+elif q == 7:
+    print('Жексенбі')
+else:
+    print('1-7ге дейінгі сан енгізіңіз')
