@@ -1,0 +1,41 @@
+q = int(input('Күнді енгізіңіз: '))
+if q<=1:
+    print('сәби')
+elif q<=13:
+    print('бала')
+elif q<=20:
+    print('жасөспірім')
+else:
+    print('Ересек')
+q = int(input('Күнді енгізіңіз: '))
+if q == 1:
+    print('Дүйсенбі')
+elif q == 2:
+    print('Сейсенбі')
+elif q == 3:
+    print('Сәрсенбі')
+elif q == 4:
+    print('Бейсенбі')
+elif q == 5:
+    print('Жұма')
+elif q == 6:
+    print('Сенбі')
+elif q == 7:
+    print('Жексенбі')
+else:
+    print('1-7ге дейінгі сан енгізіңіз')
+q = int(input('Салмағыңызды енгізіңіз: '))
+a=9.8
+b=q*9.8
+if b<=100:
+    print('салмақ тым аз')
+elif b>=500:
+    print('Салмақ тым улкен')
+    print(b,'ньютон')
+a = int(input("д;" ))
+b = int(input("м;" ))
+c = int(input("г:" ))
+if a ==10 and b ==6 and c ==60:
+  print("Волшебный год ")
+else:
+  print("Error")
